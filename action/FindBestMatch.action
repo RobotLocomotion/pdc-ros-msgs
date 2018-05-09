@@ -1,0 +1,10 @@
+# goal
+RGBDWithPose[] rgbd_with_pose_list
+---
+# result
+bool match_found
+---
+# feedback
+
+
+
