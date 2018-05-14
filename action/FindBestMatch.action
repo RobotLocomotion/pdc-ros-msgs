@@ -1,8 +1,10 @@
 # goal
 RGBDWithPose[] rgbd_with_pose_list
+sensor_msgs/CameraInfo camera_info
 ---
 # result
 bool match_found
+geometry_msgs/Point best_match_location
 ---
 # feedback
 
