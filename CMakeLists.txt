@@ -67,6 +67,7 @@ add_message_files(
 add_action_files(
    FILES
    FindBestMatch.action
+   DeformableRegistration.action
 )
 
 ## Generate added messages and services with any dependencies listed here
