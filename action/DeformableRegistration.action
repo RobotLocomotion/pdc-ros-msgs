@@ -1,0 +1,12 @@
+# goal
+RGBDWithPose[] rgbd_with_pose_list
+sensor_msgs/CameraInfo camera_info
+---
+# result
+string poser_output_folder
+
+---
+# feedback
+
+
+
