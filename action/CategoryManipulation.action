@@ -1,0 +1,12 @@
+# goal
+string poser_output_dir
+
+---
+# result
+float64[] T_goal_obs # 4 x 4 homogeneous transform matrix in numpy 'C' ordering
+
+---
+# feedback
+
+
+
