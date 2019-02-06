@@ -69,6 +69,7 @@ add_action_files(
    FindBestMatch.action
    DeformableRegistration.action
    CategoryManipulation.action
+   KeypointDetection.action
 )
 
 ## Generate added messages and services with any dependencies listed here
