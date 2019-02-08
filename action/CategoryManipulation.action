@@ -1,5 +1,6 @@
 # goal
-string poser_output_dir
+string output_dir
+string keypoint_detection_type # either poser or mankey
 
 ---
 # result
