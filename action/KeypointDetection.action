@@ -3,7 +3,7 @@ RGBDWithPose[] rgbd_with_pose_list
 sensor_msgs/CameraInfo camera_info
 ---
 # result
-string output_folder
+string output_dir
 
 ---
 # feedback
