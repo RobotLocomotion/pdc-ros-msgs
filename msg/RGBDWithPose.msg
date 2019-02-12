@@ -2,5 +2,9 @@
 # the transform to a given base frame
 Header header
 sensor_msgs/Image rgb_image
-sensor_msgs/Image depth_image
+sensor_msgs/Image depth_image # registered image, in camera frame
 geometry_msgs/TransformStamped camera_pose # in world frame
+
+sensor_msgs/PointCloud2 point_cloud
+geometry_msgs/TransformStamped point_cloud_pose # in world frame
+
