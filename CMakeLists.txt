@@ -70,6 +70,7 @@ add_action_files(
    DeformableRegistration.action
    CategoryManipulation.action
    KeypointDetection.action
+   MugOnRackManipulation.action
 )
 
 ## Generate added messages and services with any dependencies listed here
