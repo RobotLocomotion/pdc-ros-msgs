@@ -10,6 +10,12 @@ geometry_msgs/Pose T_goal_obs # goal pose
 geometry_msgs/Pose T_pre_goal_obs # pre-place position
 geometry_msgs/Pose T_world_gripper_fingertip # gripper fingertip to world frame
 
+string category_manipulation_type #
+float64 gripper_width # gripper width for grasp
+bool T_pre_goal_obs_valid
+bool T_world_gripper_fingertip_valid
+
+
 ---
 # feedback
 
