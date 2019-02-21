@@ -2,9 +2,12 @@
 string output_dir
 string keypoint_detection_type # either poser or mankey
 
+RGBDWithPose[] rgbd_with_pose_list # optional, used for mug grasping
 ---
 # result
-float64[] T_goal_obs # 4 x 4 homogeneous transform matrix in numpy 'C' ordering
+geometry_msgs/Pose T_goal_obs # goal pose
+geometry_msgs/Pose T_pre_goal_obs # (optional) pre-place position
+geometry_msgs/Pose T_world_gripper_fingertip # gripper fingertip to world frame
 
 ---
 # feedback
