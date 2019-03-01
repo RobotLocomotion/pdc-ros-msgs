@@ -2,6 +2,9 @@
 string output_dir
 string keypoint_detection_type # either poser or mankey
 RGBDWithPose[] rgbd_with_pose_list # optional, used for mug grasping
+
+geometry_msgs/Pose T_adjust # transform to adjust shoe location in world frame
+bool apply_T_adjust
 ---
 # result
 geometry_msgs/Pose T_goal_obs # goal pose
