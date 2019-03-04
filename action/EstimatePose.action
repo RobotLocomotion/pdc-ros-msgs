@@ -1,0 +1,13 @@
+# goal
+RGBDWithPose[] rgbd_with_pose_list # optional, used for mug grasping
+geometry_msgs/Pose T_init
+
+---
+# result
+geometry_msgs/Pose T_world_model # goal pose
+
+---
+# feedback
+
+
+

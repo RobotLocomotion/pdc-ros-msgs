@@ -71,6 +71,7 @@ add_action_files(
    CategoryManipulation.action
    KeypointDetection.action
    MugOnRackManipulation.action
+   EstimatePose.action
 )
 
 ## Generate added messages and services with any dependencies listed here
