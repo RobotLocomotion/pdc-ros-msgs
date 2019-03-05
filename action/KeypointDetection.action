@@ -1,6 +1,8 @@
 # goal
 RGBDWithPose[] rgbd_with_pose_list
 sensor_msgs/CameraInfo camera_info
+string output_dir
+
 ---
 # result
 string output_dir
